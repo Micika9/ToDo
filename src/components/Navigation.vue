@@ -1,9 +1,11 @@
 <template>
   <header>
     <nav>
-      <div class="logo">
-        <img :src="img">
-      </div>
+      <router-link :to="{ name: 'Home'}">
+        <div class="logo">
+            <img :src="img">
+        </div>
+      </router-link>
       <h1>To Do list</h1>
     </nav>
   </header>
@@ -43,7 +45,7 @@ export default {
           display: inline-block;
           vertical-align: middle;
           margin-right: 30px;
-          width: 110px;
+          width: 100px;
         img {
           height: 60px;
         }
