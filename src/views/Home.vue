@@ -74,7 +74,9 @@
             v-if="completedTodoList.length > 0 ">
             <div
               class="done"
-              @click="showCompletedList = !showCompletedList">Done</div>
+              @click="showCompletedList = !showCompletedList">
+              <span>Done</span>
+            </div>
           </div>
           <div
             class="todo-list completed"
