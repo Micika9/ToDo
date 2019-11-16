@@ -1,11 +1,9 @@
 <template>
   <header>
     <nav>
-      <router-link :to="{ name: 'Home'}">
-        <div class="logo">
-            <img :src="img">
-        </div>
-      </router-link>
+      <div class="logo">
+          <img :src="img">
+      </div>
       <h1>To Do list</h1>
     </nav>
   </header>
